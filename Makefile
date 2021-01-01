@@ -2,7 +2,7 @@ calistir: derle
 	./prog
 
 derle:
-	gcc main.c -oprog  -lpng -Wall -g  -ggdb
+	gcc main.c -oprog  -lpng -Wall -g
 
 uninstall:
 	rm prog
